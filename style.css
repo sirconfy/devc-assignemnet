@@ -1,0 +1,153 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color:whitesmoke;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: lightblue;
+  }
+  
+ul{
+  flex-direction: column;
+  margin-right: 50% ;
+}
+li{
+  margin: 0;
+}
+a{
+  display: block;
+  padding:2vw;
+  font-size: 40px;
+} 
+
+}
+
+
+li{
+  list-style-type: none;
+  margin: 0 2vw;
+  
+}
+
+
+a{
+  text-decoration: none;
+    color: white;
+    padding:-3vw;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+nav{
+  width: 100vw; 
+  background-color: #5D4954;
+  padding: 15px; 
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 70%;
+}
+
+a:hover{
+  color:greenyellow;
+}
+
+
+h4{
+  color: rgb(226, 226, 226);
+  text-transform: Uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+
+
+h1{
+  text-align: center;
+}
+ .head{
+    text-align: center; 
+    margin-left: 20%;
+   margin-right: 20%;
+   text-align: justify; 
+   font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+ }
+ 
+  h1,  h2  {
+   color: orange;
+ }
+ 
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 10%; }
+
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; 
+}
+
+.span_1_of_1 {
+  width: 40%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .head{ text-align: center;
+
+          /* margin-right: 3%; */
+          margin-left: 30%;
+        }
+	.col { margin: 1% 0 1% 0%;}
+ .span_1_of_1 { width: 100%;
+text-align: justify;
+ }
+ .col:last-child { 
+                   padding-left: 20%;
+                  font-size: 30px;
+                  font-family: 'Poppins', sans-serif;
+                }
+  .col:first-child { 
+    margin-left: 20%;
+    padding-right: 15%; 
+     font-size: 30px;
+     font-family: 'Poppins', sans-serif;;
+                    }
+ h2{text-align: center;}
+}
+
+
+
