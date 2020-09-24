@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Hello React!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="https://fonts.googleapis.com/css?famil=Poppins" rel="stylesheet">
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+
+
+    <script type="text/babel">
+      class App extends React.Component {
+
+         
+        render() {
+          return (
+            <div >
+              <nav className='navbar'>
+              <div  className='logo'>
+              <h4>Logo</h4>
+              
+              </div>
+                
+
+            
+        <ul className="nav-links">
+          <li> 
+            <a href="#"> Home </a>
+          </li>
+          <li> 
+            <a href="#">About </a>
+          </li>
+          <li> 
+            <a href="#"> Service</a>
+          </li>
+          <li> 
+            <a href="#"> Login</a>
+          </li>
+         
+          </ul>
+      </nav>
+      <br/><br/><br/>
+      <h1>CHEAPEST ORDER CONCEPT</h1>
+      <br/>
+      <div className='head'>
+          <h3>Welcome to Marketing And Importation Rudiments. 
+          This training is basically free and it is meant for 
+          people who wants to be financially free and start 
+          their own business with little capital</h3>
+        </div>
+        <br/><br/>
+     
+        <div className="section group">
+        <div className="col span_1_of_1">
+          <h2>How to join</h2>
+          <p>To be eligible to join the platform, you are to perform a certain task. Click the invite button below and share to 15 whatsapp group or contact, upon completed the task the Join training button will appear to click and join the training group.Return to this page when the task is completed. Please note that you won't be able to join unless the task is completed.</p>
+        </div>
+        <div className="col span_1_of_1">
+          <h2>What you will Learn</h2>
+          <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+      </div>
+     
+  
+     
+            </div>
+          )
+        }
+      }
+
+      ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+  </body>
+
+</html>
